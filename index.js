@@ -64,17 +64,17 @@ global.Fca = new Object({
                 "956": {
                     "Allow": true,
                     "Difficult": "Easy",
-                    "Notification": "Turn on with AutoLogin!"
+                    "Notification": "Hãy bật tính năng AutoLogin!"
                 }
             },
             "AntiStuckAndMemoryLeak": {
                 "AutoRestart": {
                     "Use": true,
-                    "Explain": "When this feature is turned on, the system will continuously check and confirm that if memory usage reaches 90%, it will automatically restart to avoid freezing or stopping."
+                    "Explain": "Khi bật tính năng này, hệ thống sẽ liên tục kiểm tra và xác nhận nếu mức sử dụng bộ nhớ đạt 90% thì sẽ tự động khởi động lại để tránh bị treo hoặc dừng."
                 },
                 "LogFile": {
-                    "Use": false,
-                    "Explain": "Record memory usage logs to fix errors. Default location: Horizon_Database/memory.logs"
+                    "Use": true,
+                    "Explain": "Ghi lại nhật ký sử dụng bộ nhớ để sửa lỗi. Vị trí mặc định: Horizon_Database/memory.logs"
                 }
             }
         },
